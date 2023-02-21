@@ -13,7 +13,7 @@ class EnterViewController: UIViewController {
     @IBOutlet weak var passTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        hideKeyboardWhenTappedAround()
     }
     
 

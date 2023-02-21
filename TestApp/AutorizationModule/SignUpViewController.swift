@@ -15,7 +15,7 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        hideKeyboardWhenTappedAround()
     }
     
     @IBAction func toEnterModule(_ sender: Any) {

@@ -18,6 +18,7 @@ class NewsTableViewCell: UITableViewCell {
     
     //заполняет элементы данными
     func configProperties(news: NewsModel, index: Int, saveNewsClosure: @escaping (UIButton) -> Void) {
+        likeButton.setTitle("", for: .normal)
         newsImageView.image = UIImage(named: news.image)
         newsTextLabel.text = news.description
         titleLabel.text = news.title

@@ -17,6 +17,7 @@ class FavoriteNewsCollectionViewCell: UICollectionViewCell {
     var removeNews: ((UIButton) -> Void)?
     
     func configProperties(news: NewsModel, removeNews: @escaping (UIButton) -> Void) {
+        likeButton.setTitle("", for: .normal)
         newsImageView.image = UIImage(named: news.image)
         titleLabel.text = news.title
         likeButton.setImage(news.isLiked ? UIImage(named: "favorite.fill") : UIImage(named: "favorite"), for: .normal)

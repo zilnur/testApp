@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QyL-b3-Rxl">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -108,14 +109,14 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPc-C7-opB">
-                                                    <rect key="frame" x="103.33333333333333" y="105" width="50.666666666666671" height="20"/>
+                                                    <rect key="frame" x="130" y="105" width="24" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="22" id="94B-3e-Cna"/>
                                                         <constraint firstAttribute="height" constant="20" id="hxu-aO-jEO"/>
                                                     </constraints>
                                                     <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system"/>
+                                                    <buttonConfiguration key="configuration" style="plain"/>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -209,15 +210,13 @@
                                             </constraints>
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3Q-cv-dCf">
-                                            <rect key="frame" x="302.33333333333331" y="142" width="50.666666666666686" height="20"/>
+                                            <rect key="frame" x="309" y="142" width="44" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="28a-nc-N4j"/>
                                                 <constraint firstAttribute="height" constant="20" id="VMo-ov-j7y"/>
                                             </constraints>
                                             <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system">
-                                                <color key="baseForegroundColor" systemColor="opaqueSeparatorColor"/>
-                                            </buttonConfiguration>
+                                            <buttonConfiguration key="configuration" style="plain"/>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -614,7 +613,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u4T-bq-Xsn">
-                                <rect key="frame" x="68" y="391" width="257" height="30"/>
+                                <rect key="frame" x="67.666666666666657" y="391" width="257.66666666666674" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Нет аккаунта ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2E-Dw-H3U">
                                         <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="30"/>
@@ -623,9 +622,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAp-qL-xNj">
-                                        <rect key="frame" x="93.666666666666643" y="0.0" width="163.33333333333337" height="30"/>
+                                        <rect key="frame" x="93.666666666666686" y="0.0" width="164" height="30"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Зарегестрироваться">
+                                        <buttonConfiguration key="configuration" style="plain" title="Зарегистрироваться">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="13"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -761,12 +760,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="y5X-Qe-JCK"/>
+        <segue reference="VDR-YK-KCv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="avatar" width="100" height="100"/>
         <image name="favorite" width="27.333333969116211" height="23.666666030883789"/>
-        <image name="heart" catalog="system" width="128" height="107"/>
         <image name="map" width="30" height="30"/>
         <image name="news" width="26.666666030883789" height="21"/>
         <image name="profile" width="26" height="26"/>

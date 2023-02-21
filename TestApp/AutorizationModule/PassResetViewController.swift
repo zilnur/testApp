@@ -13,7 +13,7 @@ class PassResetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        hideKeyboardWhenTappedAround()
     }
     
     @IBAction func resetButtonTaped(_ sender: Any) {
